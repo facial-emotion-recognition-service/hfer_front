@@ -9,7 +9,7 @@ HFER is a Python project that leverages a convolutional neural network to detect
 ### Local usage
 1. Clone the repo.
    #### For those using the cloud deployed API, skip to step 4.
-2. Follow the instructions in the [hfer backend repo](https://github.com/facial-emotion-recognition-service/hfer) to install and run the backend.
+2. Follow the instructions in the [hfer](https://github.com/facial-emotion-recognition-service/hfer) repo's README to install and run the backend.
 3. Change the URL on line 9 of  `hfer_front\streamlit_fe.py` to match the URL of your backend uvicorn server.
     ``` python
     # Example
