@@ -6,7 +6,7 @@ import requests
 import streamlit as st
 from PIL import Image
 
-URL = "https://hfer-api2-3s6mpd7w3q-uw.a.run.app"
+URL = "https://hfer-api-3s6mpd7w3q-uw.a.run.app"
 
 
 def get_image_data_uri(image: Image.Image) -> str:
