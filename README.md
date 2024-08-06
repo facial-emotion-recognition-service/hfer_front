@@ -7,13 +7,13 @@ HFER is a Python project that leverages a convolutional neural network to detect
 
 [Check out the website here](https://hfer-farid-nathan.streamlit.app)
 ### Local usage
-1. Clone the repo.
-   #### For those using the cloud deployed API, skip to step 4.
+1. Clone the repo.  
+   **For those using the cloud-deployed API, skip to step 4.**
 2. Follow the instructions in the [hfer](https://github.com/facial-emotion-recognition-service/hfer) repo's README to install and run the backend.
-3. Change the URL on line 9 of  `hfer_front/streamlit_fe.py` to match the URL of your backend uvicorn server.
+3. Change the URL on [line 9 of  `hfer_front/streamlit_fe.py`](https://github.com/facial-emotion-recognition-service/hfer_front/blob/1b5caf049802bfdb87bf5f439ad67a9f5420cc22/hfer_front/streamlit_fe.py#L9) to match the URL of your backend uvicorn server.
     ``` python
     # Example
-    URL ="http://127.0.0.1:8000/upload_image"
+    URL ="http://127.0.0.1:8000"
     ```
 
 4. From the `hfer_front` directory run:
@@ -26,4 +26,4 @@ For more information on API usage please [visit the GitHub repository for the HF
 
 
 ## Contributors
-HFER was developed by two friends, Farid and Nathan, with significant input and guidance from a third friend: Or.
+HFER was developed by two friends, [Farid](https://github.com/artificialfintelligence) and [Nathan](https://github.com/nihonlanguageprocessing), with significant input and guidance from a third friend: [Or](https://github.com/orbartal).
