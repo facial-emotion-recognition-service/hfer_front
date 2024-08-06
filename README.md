@@ -1,7 +1,7 @@
-# Human Facial Emotion Recognition (HFER)
+# Human Facial Emotion Recognition (HFER): Front End
 
 ## Introduction
-HFER is a Python project that leverages a convolutional neural network to detect emotions from human faces which are extracted from images uploaded by a user. This streamlit front-end allows a user to upload an image and get an annotated image back with detected faces outlined. The emotions of these faces are then returned and displayed in tabular form.
+HFER is a Python project that leverages a convolutional neural network to detect emotions from human faces which are extracted from images uploaded by a user. This streamlit front-end allows a user to upload an image and get an annotated image back with detected faces outlined. The emotions of these faces are then returned and displayed in tabular form. This is the code repo for the front-end implementation. For general information about the project, see the project's main [README](https://github.com/facial-emotion-recognition-service).
 
 ## Usage
 
